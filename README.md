@@ -80,6 +80,22 @@ A US-based housing company named Surprise Housing has decided to enter the Austr
 
 - All the models are showing almost close R2_score but can see the model R2_Score for lasso regresion is slightly better so we will go with it.
 
+### Ridge Regression 
+ - - Optimal lambda value : 10
+ - - R2 Score Train : .9227  
+ - - R2 Test Score : .8917 
+ - - RMSE test is .133596
+
+
+### Lasso Regression 
+- - Optimal lambda value : .0002 
+- - R2 Score Train : .926494 
+- - R2 Test Score : .8945 
+- - RMSE test is .131860
+
+- - Top Features : MSzoning - (Floating Village Residential,Residential Low Density,Residential Medium Density) ,Neighborhood  - (Crawford, Stone Brook , Northridge Heights,Northridge ,Somerset) , GrLivArea 
+,Exterior1st: Exterior covering on house
+
 ### Significant Variables
 
 GrLivArea 
